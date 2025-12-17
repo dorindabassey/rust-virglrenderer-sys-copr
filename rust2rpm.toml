@@ -1,0 +1,3 @@
+[requires]
+build = ["pkgconfig(virglrenderer) >= 0.10"]
+lib = ["pkgconfig(virglrenderer) >= 0.10"]

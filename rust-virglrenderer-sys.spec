@@ -14,6 +14,7 @@ URL:            https://crates.io/crates/virglrenderer-sys
 Source:         %{crates_source}
 
 BuildRequires:  cargo-rpm-macros >= 24
+BuildRequires:  pkgconfig(virglrenderer) >= 0.10
 BuildRequires:  virglrenderer-devel >= 0.10
 
 %global _description %{expand:
